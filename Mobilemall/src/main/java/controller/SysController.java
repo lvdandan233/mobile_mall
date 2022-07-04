@@ -34,7 +34,7 @@ public class SysController {
         //把文件复制给d盘
         //得到上传时用户上传的文件名
         String fileName=myImg1.getOriginalFilename();
-        File targetFile=new File("http://121.40.159.226:8989/assets/"+fileName);
+        File targetFile=new File("http://localhost:8181/assets/"+fileName);
         //开始赋值
         myImg1.transferTo(targetFile);
 

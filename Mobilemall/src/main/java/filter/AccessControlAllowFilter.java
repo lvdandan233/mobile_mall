@@ -16,7 +16,7 @@ public class AccessControlAllowFilter implements Filter {
 
         HttpServletRequest httpServletRequest=(HttpServletRequest)request;
         HttpServletResponse httpServletResponse=(HttpServletResponse) response;
-        httpServletResponse.setHeader("Access-Control-Allow-Origin","http://localhost:8081");
+        httpServletResponse.setHeader("Access-Control-Allow-Origin","http://localhost:8080");
        httpServletResponse.setHeader("Access-Control-Allow-Credentials","true");
         //支持post请求
         httpServletResponse.setHeader("P3P","CP=CAO PSA OUR");
