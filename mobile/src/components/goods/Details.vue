@@ -348,7 +348,10 @@
             },
             ifCollect(){
                     this.collect.pid=this.product.id;
-                    this.collect.uid=JSON.parse(window.localStorage.getItem('userName')).id;
+                    if (!window.localStorage.getItem('userName')) {
+                       return;
+                    }
+                    this.collect.uid= JSON.parse(window.localStorage.getItem('userName')).id;
                     this.axios({
                         method:"get",
                         url:"/collect/if?uid="+this.collect.uid+"&pid="+this.collect.pid,

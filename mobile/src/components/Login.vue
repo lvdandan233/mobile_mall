@@ -212,6 +212,7 @@
             qqmail(){
                 let load='\\w+@(qq)\\.\\w+';
                         //交验邮箱是否为QQ邮箱
+                        // TODO
                         if(load.search(this.login.email)){
                             let a= this.login.email.split('@');
                             console.log(a[0]);

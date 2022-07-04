@@ -138,7 +138,7 @@
         created() {
             this.sys();
 
-            console.log('用户头像：'+JSON.parse(this.$store.state.userName).avatar)
+            // console.log('用户头像：'+JSON.parse(this.$store.state.userName).avatar)
             //let urlHost = process.env.API_HOST // 会自动判断当前是开发还是生产环境，然后自动匹配API_HOST
         }
 
