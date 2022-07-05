@@ -80,10 +80,10 @@
         },
         methods:{
           check() {
-              this.axios("http://121.40.159.226/yiyan/?c=f&encode=json").then(resp => {
-                  this.yy = resp.data.hitokoto;
-              }).catch(err => {
-              });
+              // this.axios("http://121.40.159.226/yiyan/?c=f&encode=json").then(resp => {
+              //     this.yy = resp.data.hitokoto;
+              // }).catch(err => {
+              // });
           }
         },
         mounted() {

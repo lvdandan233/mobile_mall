@@ -216,10 +216,10 @@
                         if(load.search(this.login.email)){
                             let a= this.login.email.split('@');
                             console.log(a[0]);
-                            this.axios('http://121.40.159.226/api/qq/'+a[0]).then(res=> {
-                                this.nickName=res.data.data.name;
-                                this.fakeHead="https://q1.qlogo.cn/g?b=qq&nk="+a[0]+"&s=100";
-                            })
+                            // this.axios('http://121.40.159.226/api/qq/'+a[0]).then(res=> {
+                            //     this.nickName=res.data.data.name;
+                            //     this.fakeHead="https://q1.qlogo.cn/g?b=qq&nk="+a[0]+"&s=100";
+                            // })
 
                         }
 
