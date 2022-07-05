@@ -94,7 +94,7 @@ public class OrderController {
         if(status.equals("success")){
 
             try {
-                resp.sendRedirect("http://localhost:8081/#/pay_ok");
+                resp.sendRedirect("http://localhost:8080/#/pay_ok");
             } catch (IOException e) {
                 e.printStackTrace();
             }
