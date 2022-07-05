@@ -1,0 +1,24 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+.settings
+.classpath
+.factorypath
+.project
+.vscode
+target/
+logs/
+*.iml
+out
+gen
+common.properties
+# Package Files #
+*.jar
+*.war
+*.ear
+*.log
+.DS_Store
+**/LocalDBPasswordModifier.java
