@@ -264,7 +264,7 @@
                // this.addGoods(this.product)
             },
             add(){
-                if(this.$store.state.userName!=null||this.$store.state.userName!==''){
+                if(this.$store.state.userName !== null && this.$store.state.userName !== ''){
                     this.axios.get("/comment/if",{params:{
                         id:JSON.parse(this.$store.state.userName).id,
                             pid:this.product.id

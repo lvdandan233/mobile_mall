@@ -54,7 +54,7 @@
                     <span>消息通知</span>
                   </div>
                   <div v-for="tz in tzs" :key="tz.id" class="text item">
-                    <el-button type="text" @click="window.location.href(tz.url)" style="padding:0px;">{{tz.title}}</el-button>
+                      <el-button type="text" @click="messageDetail(tz)" style="padding:0px;">{{tz.title}}</el-button>
                   </div>
                 </el-card>
 
@@ -215,6 +215,9 @@
             more(){
                 this.$router.push("/search?keyWord=")
             },
+            messageDetail(tz) {
+              window.location.href = tz.url
+            }
         },
         //添加监听器
         filters: {

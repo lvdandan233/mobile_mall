@@ -176,7 +176,6 @@
                       }
                   }).then(resp=>{
                       this.show();
-                      this.cart=resp.data;
                   })
             },
             goBack() {

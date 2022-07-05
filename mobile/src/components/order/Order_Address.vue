@@ -111,7 +111,7 @@
                     uid:JSON.parse(this.$store.state.userName).id
             }
             }).then(resp=>{
-                if(resp.data==null){
+                if(resp.data==null || resp.data.length === 0){
                     this.$notify({
                         title: '没有设置收货地址',
                         message: '请先去个人中心添加一条收货地址,5秒后自动跳转',
