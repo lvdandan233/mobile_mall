@@ -7,8 +7,6 @@
 
 如有对你有帮助，请赏一杯咖啡的money吧，如有技术性问题，联系QQ:7940758,备注：github
 
-[![oR1BND.png](https://s4.ax1x.com/2021/12/08/oR1BND.png)](https://imgtu.com/i/oR1BND)
-
 
 ## 前端介绍
 
